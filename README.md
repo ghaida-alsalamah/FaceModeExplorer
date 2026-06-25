@@ -16,19 +16,33 @@ AI-powered video face analysis system for age estimation, gender classification,
 <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Space-FBBF24?style=for-the-badge">
 </a>
 
-</p>
+
+## ✨ Key Capabilities
+
+| Face Detection | Age Estimation | Gender Classification | Emotion Recognition | Analytics Dashboard | CSV Export |
+|:-------------:|:--------------:|:---------------------:|:-------------------:|:------------------:|:----------:|
+| Detect faces in video frames | Estimate age | Predict gender | Recognize facial emotions | Interactive charts & insights | Export predictions |
+
+---
+
+## 🛠 Built With
+
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
-![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white">
 
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
 
-![InsightFace](https://img.shields.io/badge/InsightFace-Face%20Analysis-purple)
+<img src="https://img.shields.io/badge/InsightFace-7C3AED?style=for-the-badge">
 
-![Gradio](https://img.shields.io/badge/Gradio-WebUI-orange)
+<img src="https://img.shields.io/badge/HSEmotion-8B5CF6?style=for-the-badge">
 
-![Plotly](https://img.shields.io/badge/Plotly-Dashboard-6A5ACD)
+<img src="https://img.shields.io/badge/Gradio-F97316?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white">
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
 
 </p>
