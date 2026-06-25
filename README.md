@@ -100,6 +100,9 @@ After processing a video, FaceModeExplorer automatically generates:
 
 ## 📸 Dashboard
 
+<p align="center">
+  <img src="assets/dashboard.png" width="95%">
+</p>
 
 ## 🛠 Technology Stack
 
