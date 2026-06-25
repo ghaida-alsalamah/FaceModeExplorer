@@ -17,3 +17,18 @@ AI-powered video face analysis system for age estimation, gender classification,
 </a>
 
 </p>
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+
+![InsightFace](https://img.shields.io/badge/InsightFace-Face%20Analysis-purple)
+
+![Gradio](https://img.shields.io/badge/Gradio-WebUI-orange)
+
+![Plotly](https://img.shields.io/badge/Plotly-Dashboard-6A5ACD)
+
+</p>
