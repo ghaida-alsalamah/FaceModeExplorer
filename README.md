@@ -46,3 +46,88 @@ AI-powered video face analysis system for age estimation, gender classification,
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
 
 </p>
+
+## 📖 Overview
+
+**FaceModeExplorer** is an AI-powered video face analysis system that extracts meaningful facial insights from uploaded videos using specialized deep learning models.
+
+The application automatically detects faces, estimates age, predicts gender, recognizes facial emotions, and generates an annotated output video alongside an interactive analytics dashboard and downloadable CSV report.
+
+Rather than relying on a single multi-task model, FaceModeExplorer combines dedicated models for each task, enabling higher flexibility, easier maintenance, and future model upgrades.
+
+## ⚙️ Processing Pipeline
+
+```text
+          Upload Video
+                │
+                ▼
+        Frame Extraction
+                │
+                ▼
+        Face Detection
+        (InsightFace)
+                │
+      ┌─────────┴─────────┐
+      ▼                   ▼
+ Age Estimation     Emotion Recognition
+ Gender Prediction     (HSEmotion)
+      │                   │
+      └─────────┬─────────┘
+                ▼
+      Results Aggregation
+                │
+                ▼
+   Annotated Video + Dashboard + CSV
+```
+
+## 🤖 Models
+
+| Task | Model |
+|------|-------|
+| Face Detection | InsightFace (Buffalo_L) |
+| Age Estimation | InsightFace |
+| Gender Classification | InsightFace |
+| Emotion Recognition | HSEmotion |
+
+## 📊 Generated Outputs
+
+After processing a video, FaceModeExplorer automatically generates:
+
+- 🎬 Annotated video with facial analysis
+- 📈 Interactive analytics dashboard
+- 📄 Downloadable CSV report
+- 📊 Statistical visualizations
+
+## 📸 Dashboard
+
+
+## 🛠 Technology Stack
+
+- Python
+- OpenCV
+- InsightFace
+- HSEmotion
+- PyTorch
+- ONNX Runtime
+- Plotly
+- Pandas
+- Gradio
+
+## 🚀 Running Locally
+
+```bash
+git clone https://github.com/ghaida-as/FaceModeExplorer.git
+
+cd FaceModeExplorer
+
+pip install -r requirements.txt
+
+python app.py
+```
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+Feedback and contributions are always welcome.
+
