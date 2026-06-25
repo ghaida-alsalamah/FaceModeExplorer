@@ -128,9 +128,16 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## ⭐ Support
+---
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+## 🤝 Contributors
 
-Feedback and contributions are always welcome.
+This project was collaboratively developed by:
+
+- **Ghaida Alsalamah**
+- **Hassan LAST NAME**
+
+We welcome feedback, suggestions, and contributions from the community.
+
+⭐ If you found this project useful, consider giving it a star.
 
