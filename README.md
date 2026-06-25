@@ -135,7 +135,7 @@ python app.py
 This project was collaboratively developed by:
 
 - **Ghaida Alsalamah**
-- **Hassaan LAST NAME**
+- **Hassaan Masmali**
 
 We welcome feedback, suggestions, and contributions from the community.
 
